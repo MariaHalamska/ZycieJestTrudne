@@ -1,0 +1,70 @@
+.abril-fatface-regular {
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-slab {
+  font-family: "Roboto Slab", serif;
+  font-optical-sizing: auto;
+  font-style: thin;
+  
+}
+
+.roboto {
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+h1{
+    margin:8vw;
+    font-size:10vw;
+    font-family: "Abril Fatface", serif;
+    text-wrap-style:pretty;
+}
+h3{
+    margin-left:25vw;
+    margin-right:20vw;
+    font-size:2vw;
+    font-weight:200;
+    font-family: "Roboto Slab", serif;
+    text-wrap-style:pretty;
+}
+pre{
+    font-family: "Roboto", sans-serif;
+    font-size:2vh;
+   
+    text-wrap-style:pretty;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-size:2vh;
+  
+    text-wrap-style:pretty;
+}
+.marginp{
+  margin-left:25vw;
+     margin-right:25vw;
+}
+.justify{
+    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-content:center;
+}
+body{
+    margin:0;
+}
+div{
+    padding:5vw;
+}
+footer{
+    border-top-style:solid;
+    border-width:2px;
+    border-color:black;
+    justify-content:center;
+    display:flex;
+    align-items:flex-start;
+}
