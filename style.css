@@ -9,6 +9,7 @@
   font-optical-sizing: auto;
   font-style: thin;
   
+  
 }
 
 .roboto {
@@ -18,12 +19,52 @@
   font-variation-settings:
     "wdth" 100;
 }
+.navi{
+    visibility:hidden;
+}
 h1{
     margin:8vw;
     font-size:10vw;
     font-family: "Abril Fatface", serif;
     text-wrap-style:pretty;
 }
+.ul1{
+     display:flex;
+    margin:0;
+    list-style-type:none;
+}
+ul{
+    
+    list-style-type:none;
+}
+li{
+    padding: 1vw;
+    margin:auto;
+}
+.navbar{
+    
+    position:sticky;
+    overflow:hidden;
+    top:0;
+    background-color:rgba(255,255,255,0.9);
+    
+}
+a{
+    
+text-decoration: none;
+    font-size:2.5vh;
+    font-weight:200;
+    font-family: "Roboto Slab", serif;
+    text-wrap-style:pretty;
+}
+a:hoover{
+    color:rgb(255, 198, 214);
+}
+a:visited{
+    color:black;
+}
+
+
 h3{
     margin-left:25vw;
     margin-right:20vw;
@@ -57,22 +98,72 @@ p{
 body{
     margin:0;
     overflow-x:hidden;
+    text-decoration:none;
 }
-div{
-    padding:5vw;
-}
+
 footer{
     border-top-style:solid;
     border-width:2px;
-    border-color:black;
+    border-color:rgb(255, 198, 214);
     justify-content:center;
     display:flex;
     align-items:flex-start;
+    
+}
+#foot{
+    margin-left:20vw;
+}
+img{
+    border-bottom-style:solid;
+    border-width:2px;
+    border-color:rgb(255, 198, 214);
 }
 
 @media screen and (max-width:1080px){
-
-
+.navbar{display:none}
+button{
+     border:#fff;
+    background-color:#fff;
+}
+.dropdownBtn{
+     font-size:2.5vh;
+    font-weight:200;
+    font-family: "Roboto Slab", serif;
+    border:#fff;
+    background-color:#fff;
+}
+li{
+    padding: 0.6vw;
+    
+}
+.content{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 2vw;
+  max-width:10vw;
+}
+.navi:hover .content {
+  display:contents;
+  
+  
+}
+.navi{
+    
+    visibility:visible;
+    position:sticky;
+    overflow:hidden;
+    top:0;
+    background-color:rgba(255,255,255,0.9);
+}
+a{
+    
+text-decoration: none;
+    font-size:2.5vh;
+    font-weight:200;
+    font-family: "Roboto Slab", serif;
+    text-wrap-style:pretty;
+}
 h1{
     margin:4vw;
     font-size:17vw;
@@ -120,6 +211,10 @@ footer{
     margin:2vw;
   
 }
+#foot{
+    margin-left:0vw;
+}
+
 
 }
   
