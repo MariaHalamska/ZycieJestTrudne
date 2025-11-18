@@ -105,9 +105,12 @@ p{
 }
 .justify{
     text-align: center;
-    display:flex;
+    display:block;
+    text-wrap-mode:wrap;
+    text-wrap-style:pretty;
     justify-content: center;
     align-content:center;
+    margin:4vw;
 }
 footer{
     border-top-style:solid;
@@ -122,6 +125,5 @@ footer{
   
     
     
-
 
 
