@@ -27,7 +27,7 @@ h1{
 h3{
     margin-left:25vw;
     margin-right:20vw;
-    font-size:2vw;
+    font-size:2vh;
     font-weight:200;
     font-family: "Roboto Slab", serif;
     text-wrap-style:pretty;
@@ -68,3 +68,4 @@ footer{
     display:flex;
     align-items:flex-start;
 }
+
