@@ -240,11 +240,19 @@ footer{
 #foot{
     margin-left:0vw;
 }
-
+body{
+    margin:0;
+    overflow-x:hidden;
+    text-decoration:none;
+}
 }
  @media screen and (max-width:1080px) and (orientation:landscape){
 .navbar{display:none}
-
+body{
+    margin:0;
+    overflow-x:hidden;
+    text-decoration:none;
+}
 button{
      border:#fff;
     background-color:#fff;
@@ -353,4 +361,5 @@ footer{
 }
 
 }
+
 
