@@ -267,6 +267,7 @@ body{
     display:none;
 }
 .konkuter{
+  max-width:fit-content;
     display:block;
 }
 body{
@@ -387,4 +388,5 @@ footer{
 }
 
 }
+
 
