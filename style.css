@@ -75,6 +75,13 @@ a:hover{
 a:active{
     color:#888;
 }
+.phone{
+    display:none;
+}
+.konkuter{
+    display:block;
+     max-width:1920px;
+}
 
 
 h3{
@@ -135,6 +142,13 @@ img{
 @media screen and (max-width:1080px) and (orientation:portrait){
 .navbar{display:none}
 
+.phone{
+    max-width:fit-content;
+    display:block;
+}
+.konkuter{
+    display:none;
+}
 button{
      border:#fff;
     background-color:#fff;
@@ -245,9 +259,16 @@ body{
     overflow-x:hidden;
     text-decoration:none;
 }
+
 }
  @media screen and (max-width:1080px) and (orientation:landscape){
 .navbar{display:none}
+.phone{
+    display:none;
+}
+.konkuter{
+    display:block;
+}
 body{
     margin:0;
     overflow-x:hidden;
@@ -270,6 +291,11 @@ button{
 li{
     padding-top:0.5vw;
     
+}
+body{
+    margin:0;
+    overflow-x:hidden;
+    text-decoration:none;
 }
 .content{
     text-align:center;
@@ -361,5 +387,4 @@ footer{
 }
 
 }
-
 
