@@ -81,6 +81,7 @@ a:active{
 .konkuter{
     display:block;
      max-width:1920px;
+  object-fit:cover;
 }
 
 
@@ -143,7 +144,8 @@ img{
 .navbar{display:none}
 
 .phone{
-    max-width:100%;
+  object-fit:cover;
+   
     display:block;
 }
 .konkuter{
@@ -267,7 +269,7 @@ body{
     display:none;
 }
 .konkuter{
-   max-width:100%;
+   object-fit:cover;
     display:block;
 }
 body{
@@ -388,6 +390,7 @@ footer{
 }
 
 }
+
 
 
 
