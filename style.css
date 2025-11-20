@@ -79,9 +79,15 @@ a:active{
     display:none;
 }
 .konkuter{
+    max-width: 100vw;
     display:block;
-     max-width:1920px;
-  object-fit:cover;
+     
+  
+}
+.video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 
 
@@ -144,9 +150,15 @@ img{
 .navbar{display:none}
 
 .phone{
-  object-fit:cover;
-   
+    max-width: 100vw;
     display:block;
+     
+  
+}
+.video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 .konkuter{
     display:none;
@@ -269,8 +281,15 @@ body{
     display:none;
 }
 .konkuter{
-   object-fit:cover;
+    max-width: 100vw;
     display:block;
+     
+  
+}
+.video{
+    width:100%;
+    height:100%;
+    object-fit:cover;
 }
 body{
     margin:0;
@@ -390,7 +409,4 @@ footer{
 }
 
 }
-
-
-
 
