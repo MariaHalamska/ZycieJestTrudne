@@ -21,17 +21,24 @@
 }
 .navi{
     visibility:hidden;
+    display:none;
 }
 h1{
-    margin:8vw;
+    line-height:110%;
+    margin-bottom:10vh;
+    margin-left:8vw;
     font-size:10vw;
     font-family: "Abril Fatface", serif;
     text-wrap-style:pretty;
 }
+.smaller{
+    font-size:1vw;
+}
 .ul1{
      display:flex;
-    margin:0;
+    margin-block-start:0;
     list-style-type:none;
+    padding-inline-start:0;
 }
 ul{
     
@@ -41,6 +48,7 @@ li{
     padding: 1vw;
     margin:auto;
 }
+
 .navbar{
     
     position:sticky;
@@ -51,17 +59,21 @@ li{
 }
 a{
     color: black;
-text-decoration: none;
+    text-decoration: none;
     font-size:2.5vh;
     font-weight:200;
     font-family: "Roboto Slab", serif;
     text-wrap-style:pretty;
 }
-a:hoover{
-    color:rgb(255, 198, 214);
-}
+
 a:visited{
     color:black;
+}
+a:hover{
+    color:#666;
+}
+a:active{
+    color:#888;
 }
 
 
@@ -75,13 +87,13 @@ h3{
 }
 pre{
     font-family: "Roboto", sans-serif;
-    font-size:2vh;
+    font-size:2.5vh;
    
     text-wrap-style:pretty;
 }
 p{
     font-family: "Roboto", sans-serif;
-    font-size:2vh;
+    font-size:2.5vh;
   
     text-wrap-style:pretty;
 }
@@ -102,6 +114,7 @@ body{
 }
 
 footer{
+   
     border-top-style:solid;
     border-width:2px;
     border-color:rgb(255, 198, 214);
@@ -119,24 +132,29 @@ img{
     border-color:rgb(255, 198, 214);
 }
 
-@media screen and (max-width:1080px){
+@media screen and (max-width:1080px) and (orientation:portrait){
 .navbar{display:none}
+
 button{
      border:#fff;
     background-color:#fff;
 }
 .dropdownBtn{
-     font-size:2.5vh;
+    
+    margin:auto;
+   
+     font-size:3vh;
     font-weight:200;
     font-family: "Roboto Slab", serif;
     border:#fff;
     background-color:#fff;
 }
 li{
-    padding: 0.6vw;
+    padding-top:0.5vh;
     
 }
 .content{
+    text-align:center;
   display: none;
   position: absolute;
   background-color: #f9f9f9;
@@ -149,20 +167,28 @@ li{
   
 }
 .navi{
-    
+    text-align:center;
+    display:block;
     visibility:visible;
     position:sticky;
     overflow:hidden;
     top:0;
+    
     background-color:rgba(255,255,255,0.9);
 }
 a{
-    
-text-decoration: none;
-    font-size:2.5vh;
+    text-decoration: none;
+    font-size:3vh;
     font-weight:200;
     font-family: "Roboto Slab", serif;
     text-wrap-style:pretty;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+.smaller{
+    font-size:2.5vw;
 }
 h1{
     margin:4vw;
@@ -216,5 +242,115 @@ footer{
 }
 
 }
+ @media screen and (max-width:1080px) and (orientation:landscape){
+.navbar{display:none}
+
+button{
+     border:#fff;
+    background-color:#fff;
+}
+.dropdownBtn{
+    
+    margin:auto;
+   
+     font-size:3vw;
+    font-weight:200;
+    font-family: "Roboto Slab", serif;
+    border:#fff;
+    background-color:#fff;
+}
+li{
+    padding-top:0.5vw;
+    
+}
+.content{
+    text-align:center;
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 2vw;
+  max-width:10vw;
+}
+.navi:hover .content {
+  display:contents;
   
+  
+}
+.navi{
+    text-align:center;
+    display:block;
+    visibility:visible;
+    position:sticky;
+    overflow:hidden;
+    top:0;
+    
+    background-color:rgba(255,255,255,0.9);
+}
+a{
+    text-decoration: none;
+    font-size:3vw;
+    font-weight:200;
+    font-family: "Roboto Slab", serif;
+    text-wrap-style:pretty;
+}
+ul{
+    padding:0;
+    margin:0;
+}
+.smaller{
+    font-size:1.5vw;
+}
+
+h1{
+    margin:4vw;
+    font-size:17vw;
+    font-family: "Abril Fatface", serif;
+    text-wrap-style:pretty;
+}
+h3{
+    margin-left:4vw;
+    margin-right:20vw;
+    font-size:4vw;
+    font-weight:200;
+    font-family: "Roboto Slab", serif;
+    text-wrap-style:pretty;
+}
+pre{
+    font-family: "Roboto", sans-serif;
+    font-size:2vw;
+   
+    text-wrap-style:pretty;
+}
+p{
+    font-family: "Roboto", sans-serif;
+    font-size:2.5vw;
+  
+    text-wrap-style:pretty;
+}
+.marginp{
+  margin-left:4vw;
+     margin-right:4vw;
+}
+.justify{
+    text-align: center;
+    display:block;
+    text-wrap-mode:wrap;
+    text-wrap-style:pretty;
+    justify-content: center;
+    align-content:center;
+    margin:4vw;
+}
+footer{
+    border-top-style:solid;
+    border-width:2px;
+    border-color:black;
+    display:block;
+    margin:2vw;
+  
+}
+#foot{
+    margin-left:0vw;
+}
+
+}
 
