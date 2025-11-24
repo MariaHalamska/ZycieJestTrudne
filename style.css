@@ -189,7 +189,7 @@ margin-right:2vw;
 
 }
 .container{
-    
+    font-size:2vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
@@ -197,7 +197,7 @@ margin-right:2vw;
    text-align: justify;
 }
 .contain .container{
-    width:24vh;
+    width:18vh;
     height: 18vw;
     
     
@@ -490,5 +490,6 @@ footer{
 }
 
 }
+
 
 
