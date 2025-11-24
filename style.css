@@ -172,7 +172,7 @@ img{
     border-color:rgb(255, 198, 214);
 }
 
-@media screen and (max-width:1080px) and (orientation:portrait){
+@media screen and (max-width:1081px) and (orientation:portrait){
 .navbar{display:none}
 
 .phone{
@@ -197,10 +197,9 @@ margin-right:2vw;
    text-align: justify;
 }
 .contain .container{
-    width:18vh;
-    height: 18vw;
-    
-    
+    width:19vh;
+    height: 28vw;
+  
     margin:auto;
     margin-top:2vh;
     text-align:center;
@@ -490,6 +489,7 @@ footer{
 }
 
 }
+
 
 
 
