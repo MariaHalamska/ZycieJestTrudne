@@ -39,6 +39,7 @@
     
     border-style:solid;
     border-width: 1px;
+    border-radius:4vh;
 }
 .container2{
     
@@ -59,6 +60,7 @@
     
     border-style:solid;
     border-width: 1px;
+    border-radius:4vh;
 }
 .container3{
     
@@ -79,6 +81,7 @@
     
     border-style:solid;
     border-width: 1px;
+    border-radius:4vh;
 }
 .container4{
     
@@ -99,6 +102,7 @@
     
     border-style:solid;
     border-width: 1px;
+    border-radius:4vh;
 }
 .container5{
     
@@ -119,6 +123,7 @@
     
     border-style:solid;
     border-width: 1px;
+    border-radius:4vh;
 }
 .roboto {
   font-family: "Roboto", sans-serif;
@@ -392,7 +397,7 @@ body{
 }
 
 .container1{
-    font-size:4vh;
+    font-size:3vh;
     
     font-family: "Roboto";
     text-align:center;
@@ -411,9 +416,10 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:8vh;
 }
 .container2{
-    font-size:4vh;
+    font-size:3vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
@@ -431,9 +437,10 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:8vh;
 }
 .container3{
-   font-size:4vh;
+   font-size:3vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
@@ -451,9 +458,10 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:8vh;
 }
 .container4{
-    font-size:4vh;
+    font-size:3vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
@@ -471,9 +479,10 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:8vh;
 }
 .container5{
-    font-size:4vh;
+    font-size:3vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
@@ -491,6 +500,7 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:8vh;
 }
 }
  @media screen and (max-width:1080px) and (orientation:landscape){
@@ -511,6 +521,7 @@ body{
     font-family: "Roboto";
     text-align:center;
     padding:10px;
+    padding-top: 20px;
     margin-top:2vh;
    text-align: justify;
 }
@@ -525,12 +536,14 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:12vh;
 }
 .container2{
    font-size:4vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
+    padding-top: 20px;
     margin-top:2vh;
    text-align: justify;
 }
@@ -545,12 +558,14 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:12vh;
 }
 .container3{
     font-size:4vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
+    padding-top: 20px;
     margin-top:2vh;
    text-align: justify;
 }
@@ -565,12 +580,14 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:12vh;
 }
 .container4{
     font-size:4vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
+    padding-top: 20px;
     margin-top:2vh;
    text-align: justify;
 }
@@ -585,12 +602,14 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:12vh;
 }
 .container5{
     font-size:4vh;
     font-family: "Roboto";
     text-align:center;
     padding:10px;
+    padding-top: 20px;
     margin-top:2vh;
    text-align: justify;
 }
@@ -605,6 +624,7 @@ body{
     
     border-style:solid;
     border-width: 1px;
+    border-radius:12vh;
 }
 
 .konkuter{
