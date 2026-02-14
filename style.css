@@ -18,7 +18,8 @@
     margin-right:5vw;
 
 }
-.container{
+
+.container1{
     
     font-family: "Roboto";
     text-align:center;
@@ -26,9 +27,89 @@
     margin-top:2vh;
    text-align: justify;
 }
-.contain .container{
+.contain .container1{
     width:24vh;
-    height: 12vw;
+    height: 2vw;
+    
+    
+   margin:auto;
+    margin-top:2vh;
+    text-align:center;
+    
+    border-style:solid;
+    border-width: 1px;
+}
+.container2{
+    
+    font-family: "Roboto";
+    text-align:center;
+    padding:10px;
+    margin-top:2vh;
+   text-align: justify;
+}
+.contain .container2{
+    width:24vh;
+    height: 4vw;
+    
+    
+   margin:auto;
+    margin-top:2vh;
+    text-align:center;
+    
+    border-style:solid;
+    border-width: 1px;
+}
+.container3{
+    
+    font-family: "Roboto";
+    text-align:center;
+    padding:10px;
+    margin-top:2vh;
+   text-align: justify;
+}
+.contain .container3{
+    width:24vh;
+    height: 5vw;
+    
+    
+   margin:auto;
+    margin-top:2vh;
+    text-align:center;
+    
+    border-style:solid;
+    border-width: 1px;
+}
+.container4{
+    
+    font-family: "Roboto";
+    text-align:center;
+    padding:10px;
+    margin-top:2vh;
+   text-align: justify;
+}
+.contain .container4{
+    width:24vh;
+    height: 7vw;
+    
+    
+   margin:auto;
+    margin-top:2vh;
+    text-align:center;
+    
+    border-style:solid;
+    border-width: 1px;
+}
+.container5{
+    
+    font-family: "Roboto";
+    text-align:center;
+    padding:10px;
+    margin-top:2vh;
+   text-align: justify;
+}
+.contain .container5{
+    width:24vh;
+    height: 9vw;
     
     
    margin:auto;
@@ -489,10 +570,3 @@ footer{
 }
 
 }
-
-
-
-
-
-
-
