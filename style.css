@@ -148,7 +148,7 @@ h1{
     font-size:1vw;
 }
 .ul1{
-     display:flex;
+    display:flex;
     margin-block-start:0;
     list-style-type:none;
     padding-inline-start:0;
@@ -158,7 +158,7 @@ ul{
     list-style-type:none;
 }
 li{
-    padding: 1vw;
+    padding-top: 2vh;
     margin:auto;
 }
 
@@ -167,7 +167,7 @@ li{
     position:sticky;
     overflow:hidden;
     top:0;
-    background-color:rgba(255,255,255,0.9);
+    background-color: #FFF8F0;
     
 }
 a{
@@ -177,24 +177,26 @@ a{
     font-weight:200;
     font-family: "Roboto Slab", serif;
     text-wrap-style:pretty;
+    transition-timing-function: ease;
+    transition-duration: 400ms;
+    transition-delay: 50ms;
 }
 
 a:visited{
     color:black;
 }
 a:hover{
-    color:#666;
+    transition-timing-function: ease;
+    transition-duration: 200ms;
+    transition-delay: 50ms;
 }
-a:active{
-    color:#888;
-}
+
 .phone{
     display:none;
 }
 .konkuter{
     max-width: 100vw;
     display:block;
-     
   
 }
 .video{
@@ -238,13 +240,12 @@ body{
     margin:0;
     overflow-x:hidden;
     text-decoration:none;
+    background-color: #FFF8F0;
 }
 
 footer{
    
-    border-top-style:solid;
-    border-width:2px;
-    border-color:rgb(255, 198, 214);
+    padding:20px;
     justify-content:center;
     display:flex;
     align-items:flex-start;
@@ -253,11 +254,7 @@ footer{
 #foot{
     margin-left:20vw;
 }
-img{
-    border-bottom-style:solid;
-    border-width:2px;
-    border-color:rgb(255, 198, 214);
-}
+
 
 @media screen and (max-width:1081px) and (orientation:portrait){
 .navbar{display:none}
@@ -278,8 +275,8 @@ img{
     display:none;
 }
 button{
-     border:#fff;
-    background-color:#fff;
+     border:#FFF8F0;
+    background-color:#FFF8F0;
 }
 .dropdownBtn{
     
@@ -289,8 +286,8 @@ button{
      font-size:3vh;
     font-weight:200;
     font-family: "Roboto Slab", serif;
-    border:#fff;
-    background-color:#fff;
+    border:#FFF8F0;
+    background-color:#FFF8F0;
 }
 li{
     padding-top:0.5vh;
@@ -300,7 +297,7 @@ li{
     text-align:center;
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #FFF8F0;
   min-width: 2vw;
   max-width:10vw;
 }
@@ -317,7 +314,7 @@ li{
     overflow:hidden;
     top:0;
     
-    background-color:rgba(255,255,255,0.9);
+    background-color:#FFF8F0;
 }
 a{
     text-decoration: none;
@@ -373,11 +370,9 @@ p{
     margin:4vw;
 }
 footer{
-    border-top-style:solid;
-    border-width:2px;
-    border-color:black;
+   padding:20px;
     display:block;
-    margin:2vw;
+    margin-top:2vw;
   
 }
 #foot{
@@ -401,8 +396,8 @@ body{
     
     font-family: "Roboto";
     text-align:center;
-    padding:20px;
-    padding-top:40px;
+    padding:4vw;
+    padding-top:7vh;
     margin-top:2vh;
    text-align: justify;
 }
@@ -423,8 +418,8 @@ body{
     font-size:3vh;
     font-family: "Roboto";
     text-align:center;
-    padding:20px;
-    padding-top:40px;
+    padding:4vw;
+    padding-top:7vh;
     margin-top:2vh;
    text-align: justify;
 }
@@ -445,8 +440,8 @@ body{
    font-size:3vh;
     font-family: "Roboto";
     text-align:center;
-    padding:20px;
-   padding-top:40px;
+    padding:4vw;
+    padding-top:7vh;
     margin-top:2vh;
    text-align: justify;
 }
@@ -467,10 +462,10 @@ body{
     font-size:3vh;
     font-family: "Roboto";
     text-align:center;
-    padding:20px;
-    padding-top:40px;
+    padding:4vw;
+    padding-top:7vh;
     margin-top:2vh;
-   text-align: justify;
+    text-align: justify;
 }
 .contain .container4{
     width:95vw;
@@ -489,8 +484,8 @@ body{
     font-size:3vh;
     font-family: "Roboto";
     text-align:center;
-    padding:20px;
-    padding-top:40px;
+    padding:4vw;
+    padding-top:7vh;
     margin-top:2vh;
    text-align: justify;
 }
@@ -649,8 +644,8 @@ body{
     text-decoration:none;
 }
 button{
-     border:#fff;
-    background-color:#fff;
+     border:#FFF8F0;
+    background-color:#FFF8F0;
 }
 .dropdownBtn{
     
@@ -659,8 +654,8 @@ button{
      font-size:3vw;
     font-weight:200;
     font-family: "Roboto Slab", serif;
-    border:#fff;
-    background-color:#fff;
+    border:#FFF8F0;
+    background-color:#FFF8F0;
 }
 li{
     padding-top:0.5vw;
@@ -675,7 +670,7 @@ body{
     text-align:center;
   display: none;
   position: absolute;
-  background-color: #f9f9f9;
+  background-color: #FFF8F0;
   min-width: 2vw;
   max-width:10vw;
 }
@@ -692,7 +687,7 @@ body{
     overflow:hidden;
     top:0;
     
-    background-color:rgba(255,255,255,0.9);
+    background-color:#FFF8F0;
 }
 a{
     text-decoration: none;
@@ -749,11 +744,11 @@ p{
     margin:4vw;
 }
 footer{
-    border-top-style:solid;
-    border-width:2px;
-    border-color:black;
+   padding:20px;
     display:block;
-    margin:2vw;
+    margin-top:2vw;
+    display:block;
+    
   
 }
 #foot{
@@ -762,5 +757,3 @@ footer{
 
 }
  
-
-
