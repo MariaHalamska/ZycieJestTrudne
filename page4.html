@@ -7,14 +7,29 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script>
+  if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark");
+  }
+</script>
+
 <link rel="stylesheet" href="style.css" />
-<script src="script.js"></script>
+
 <meta name="description" content="Zbiór rad związanych ze zdrowiem psychicznym">
 <meta name="author" content="Maria Halamska">
 <link rel="icon" href="src/icon.png"></icon>
 <style> 
 a:hover {color:#daa0f1;}
 #haborga {fill: #daa0f1; }
+.colorh1 {color:#daa0f1;}
+.dark .colorh1 {color:#29453F;}
+a:hover {color:#daa0f1;}
+.dark a:hover {color:#29453F;}
+#haborga {fill: #daa0f1; }
+.dark #haborga {fill: #29453F;  }
+.footcolor {background-color:#daa0f1;}
+.dark .footcolor {background-color:#29453F;}
 </style>
 
 </head>
@@ -24,19 +39,28 @@ a:hover {color:#daa0f1;}
   
 <div class ="phone"><video class="video"  autoplay loop>
     <source  src="src/Comp2.mp4 "  type="video/mp4"/></video></div>
+
 <div class="navbar">
 <ul class="ul1">
- <li><a href="index.html">Życie jest trudne</a></li>
+
+<li><a href="index.html">Życie jest trudne</a></li>
 <li><a href="page2.html">Smutek, złość i dysocjacja</a></li>
 <li><a href="page3.html">Boję się</a></li>
 <li><a href="page4.html">Niechciane myśli</a></li>
 <li><a href="page5.html">Nie mogę się zebrać</a></li>
 <li><a href="page6.html">Jedz, pij i śpij</a></li>
+<li id="toggleLD" class="togglebtn">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 2a10 10 0 0 1 10 10v0a10 10 0 0 1 -10 10z" fill="currentColor" />
+</svg>
+</li>
+
 </ul>
 </div>
 
 <div class="navi">
-     <button class="dropdownBtn" id="haborga">
+    <button class="dropdownBtn" id="haborga">
          <svg viewBox="0 0 100 80" width="40" height="40">
   <rect width="100" height="20" rx="15"></rect>
   <rect y="30" width="100" height="20" rx="15"></rect>
@@ -45,18 +69,24 @@ a:hover {color:#daa0f1;}
     </button>
 <div class="content">
 <ul>
-   <li><a href="index.html">Życie jest trudne</a></li>
+<li><a href="index.html">Życie jest trudne</a></li>
 <li><a href="page2.html">Smutek, złość i dysocjacja</a></li>
 <li><a href="page3.html">Boję się</a></li>
 <li><a href="page4.html">Niechciane myśli</a></li>
 <li><a href="page5.html">Nie mogę się zebrać</a></li>
 <li><a href="page6.html">Jedz, pij i śpij</a></li>
+<li id="toggleLDmobile" class="togglebtn">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 2a10 10 0 0 1 10 10v0a10 10 0 0 1 -10 10z" fill="currentColor" />
+</svg>
+</li>
 </ul>
 </div>
 </div>
 
 
-<h1 style="color:#daa0f1">Niechciane myśli </h1><br/>
+<h1 class="colorh1">Niechciane myśli </h1><br/>
 <h3>Niechciane i natrętne myśli lub emocje są męczące. Warto pamiętać, że to tylko myśli i emocje, a nie rzeczywistość. </h3>
 <p class="marginp">Wyobraź sobie rzekę płynącą przed Tobą. Każda myśl, która przychodzi Ci do głowy staje się liściem – niektóre są ciężkie, inne lżejsze. Pozwól im płynąć. Nie podążaj za nimi. Nie analizuj. Po prostu obserwuj. Możesz podnieść jednego liścia – nie oceniaj go, zastanów się co to może sygnalizować. Odłóż go do rzeki i spójrz jak odpływa. Możesz wejść do rzeki – pozwolić poczuć sobie emocje. Pamiętaj – nie jesteś rzeką ani liśćmi – jesteś osobą, która obserwuje całe zjawisko.
 Często emocje takie jak smutek czy złość oceniamy – przypisujemy im negatywną wartość, przez co dusimy je w sobie. Wszystkie emocje to tylko emocje i najważniejsze jest to, by pozwolić je sobie poczuć w bezpiecznym miejscu. Wszystkie emocje, coś sygnalizują. Złość może sygnalizować brak spełnionej potrzeby autonomii, akceptacji, uznania. Smutek – brak spełnionej potrzeby autentyczności, bezpieczeństwa emocjonalnego, zrozumienia. 
@@ -67,15 +97,16 @@ Gdy jednak masz kontrolę nad myślami, ale zastanawiasz się ciągle „co jeś
 
 
 </br></br></br></br><br/><br/><br/><br/>
+<script src="script.js"></script>
 </body>
- <footer style="background-color:#daa0f1">
+ <footer class="footcolor">
     <div><pre class="smaller">Życie jest trudne<br/>
 Tekst, design, animacja, strona internetowa: 
 Maria Halamska
 </pre></div>
-   <div id="foot"> <pre class="smaller">Bez użycia sztucznej inteligencji
-Stworzone przez człowieka dla ludzi <br/>
-Ostatnia aktualizacja 18.02.2026</pre></div>
+   <div id="foot"> <pre class="smaller">
+<br/><br/>
+Ostatnia aktualizacja 17.04.2026<br/></pre></div>
 </footer>
 
 </html>

@@ -7,14 +7,27 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+<script>
+  if (localStorage.getItem("theme") === "dark") {
+    document.documentElement.classList.add("dark");
+  }
+</script>
+
 <link rel="stylesheet" href="style.css" />
-<script src="script.js"></script>
+
 <meta name="description" content="Zbiór rad związanych ze zdrowiem psychicznym">
 <meta name="author" content="Maria Halamska">
 <link rel="icon" href="src/icon.png"></icon>
 <style> 
+.colorh1 {color:#ffbb72;}
+.dark .colorh1 {color:#335944;}
 a:hover {color:#ffbb72;}
+.dark a:hover {color:#335944;}
 #haborga {fill: #ffbb72; }
+.dark #haborga {fill: #335944;  }
+.footcolor {background-color:#ffbb72;}
+.dark .footcolor {background-color:#335944;}
 </style>
 
 </head>
@@ -27,12 +40,20 @@ a:hover {color:#ffbb72;}
     
 <div class="navbar">
 <ul class="ul1">
+
 <li><a href="index.html">Życie jest trudne</a></li>
 <li><a href="page2.html">Smutek, złość i dysocjacja</a></li>
 <li><a href="page3.html">Boję się</a></li>
 <li><a href="page4.html">Niechciane myśli</a></li>
 <li><a href="page5.html">Nie mogę się zebrać</a></li>
 <li><a href="page6.html">Jedz, pij i śpij</a></li>
+<li id="toggleLD" class="togglebtn">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 2a10 10 0 0 1 10 10v0a10 10 0 0 1 -10 10z" fill="currentColor" />
+</svg>
+</li>
+
 </ul>
 </div>
 
@@ -52,11 +73,17 @@ a:hover {color:#ffbb72;}
 <li><a href="page4.html">Niechciane myśli</a></li>
 <li><a href="page5.html">Nie mogę się zebrać</a></li>
 <li><a href="page6.html">Jedz, pij i śpij</a></li>
+<li id="toggleLDmobile" class="togglebtn">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+  <circle cx="12" cy="12" r="10" />
+  <path d="M12 2a10 10 0 0 1 10 10v0a10 10 0 0 1 -10 10z" fill="currentColor" />
+</svg>
+</li>
 </ul>
 </div>
 </div>
 
-<h1 style="color:#ffbb72">Życie jest trudne</h1>
+<h1 class="colorh1">Życie jest trudne</h1>
 <br/>
 
 <h3>Od autorki</h3><br/>
@@ -66,16 +93,17 @@ z trudnymi emocjami i stanami. Niestety zdarza mi się zapomnieć o tym, czeg
 
 
 </br></br></br></br><br/><br/><br/><br/>
+<script src="script.js"></script>
 </body>
 
- <footer style="background-color:#ffbb72;">
+ <footer class="footcolor">
     <div><pre class="smaller">Życie jest trudne<br/>
 Tekst, design, animacja, strona internetowa: 
 Maria Halamska
 </pre></div>
-   <div id="foot"> <pre class="smaller">Bez użycia sztucznej inteligencji
-Stworzone przez człowieka dla ludzi <br/>
-Ostatnia aktualizacja 27.03.2026<br/></pre></div>
+   <div id="foot"> <pre class="smaller">
+<br/><br/>
+Ostatnia aktualizacja 17.04.2026<br/></pre></div>
 </footer>
 
 </html>
